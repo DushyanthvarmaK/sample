@@ -1,3 +1,9 @@
+"""QUESTION:
+Given a list of integers, write a program to identify contiguous sub list that has the largest
+sum and print the sub-list. A non-empty slice of the list with step size 1 can be considered
+as contiguous sub-list.
+Output should be space-integrated integers."""
+
 a = list(map(int, input().split()))
 
 if not a:
